@@ -9,6 +9,8 @@
       "Courier New", monospace;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
@@ -169,6 +171,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-\[140px\] {
+    margin-top: 140px;
+  }
   .mt-\[170px\] {
     margin-top: 170px;
   }
@@ -183,6 +188,9 @@
   }
   .h-\[75px\] {
     height: 75px;
+  }
+  .h-\[681px\] {
+    height: 681px;
   }
   .h-\[px\] {
     height: px;
@@ -208,6 +216,12 @@
   .w-\[180px\] {
     width: 180px;
   }
+  .w-\[237px\] {
+    width: 237px;
+  }
+  .w-\[479px\] {
+    width: 479px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -216,6 +230,9 @@
   }
   .items-center {
     align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-center {
     justify-content: center;
@@ -264,6 +281,10 @@
   .text-center {
     text-align: center;
   }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
@@ -271,6 +292,12 @@
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
+  .text-\[\#FF4D01\] {
+    color: #FF4D01;
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
